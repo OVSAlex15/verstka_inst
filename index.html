@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Post</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="comments.js" ></script>
+  <script src="script.js" ></script>
+</head>
+<body>
+  <div class="card">
+    <header class="card-header">
+      <img src="ji.webp" alt="Avatar" class="avatar">
+      <div>
+        <strong>Chipinkos gangsta</strong>
+        <span>LA, USA</span>
+      </div>
+    </header>
+    <div class="card-image">
+      <img src="chipinkos.jpg" alt="Post Image">
+    </div>
+    <div class="card-actions">
+      <button id="like-btn">
+        <svg id="like-icon" class="like-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+        </svg>
+      </button>
+      <span id="like-count">(бесконечно) likes</span>
+    </div>
+    <p class="card-text">
+      <strong>Chipinkos</strong> новый track на всех площадях
+    </p>
+    <div class="comments-section">
+      <ul id="comments-list"></ul>
+      <div class="add-comment">
+        <input type="text" id="new-comment" placeholder="Add a comment...">
+        <button id="add-comment-btn">Post</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

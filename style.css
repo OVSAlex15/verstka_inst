@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .card {
+    width: 400px;
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .card-image img {
+    width: 100%;
+  }
+  
+  .card-actions {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  #like-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .like-icon {
+    width: 24px;
+    height: 24px;
+    fill: #262626;
+  }
+  
+  .liked .like-icon {
+    fill: #ed4956;
+  }
+  
+  .card-text {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .comments-section {
+    padding: 10px;
+  }
+  
+  #comments-list {
+    max-height: 100px;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  #comments-list li {
+    margin-bottom: 8px;
+  }
+  
+  .add-comment {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  #new-comment {
+    flex: 1;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  #add-comment-btn {
+    border: none;
+    background: #0095f6;
+    color: #fff;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
